@@ -1,0 +1,15 @@
+{
+    "ProfilerEnabled": true,
+    "LogLevel": 2,
+    "DefaultLogType": "fileLoggerDefault",
+    "AppName" : "pims-",
+    "Write2Console" : false,
+    "FileLogger": [
+        {
+            "Key": "fileLoggerDefault",
+            "Path": "/var/log/pims/",
+            "FormatType" : "json",
+            "FileNamePrefix": "api-"       
+        }       
+    ]
+}
